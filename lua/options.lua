@@ -1,0 +1,13 @@
+vim.o.hlsearch = false          -- Set highlight on search
+vim.wo.number = true            -- Make line numbers default
+vim.o.mouse = 'a'               -- Enable mouse mode
+vim.o.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim.
+vim.o.breakindent = true
+vim.o.undofile = true
+vim.o.ignorecase = true
+vim.o.smartcase = true
+vim.wo.signcolumn = 'yes'
+vim.o.updatetime = 250
+vim.o.timeoutlen = 300
+vim.o.completeopt = 'menuone,noselect'
+vim.o.termguicolors = true
